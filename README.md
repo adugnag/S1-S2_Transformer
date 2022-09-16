@@ -1,4 +1,4 @@
-# S1-S2-Transformer
+# Sentinel-1 SAR and Sentinel-2 optical based Transformer architecture for tropical dry forest mapping.
 
 # Introduction
 
