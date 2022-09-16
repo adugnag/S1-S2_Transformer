@@ -1,8 +1,8 @@
-# Sentinel-1 SAR and Sentinel-2 optical timeseries based Transformer architecture for tropical dry forest mapping.
+# Sentinel-1 SAR and Sentinel-2 optical timeseries based Transformer architecture for tropical dry forest disturbance mapping.
 
 # Introduction
 
-This repository prototypes the fusion of Sentinel-1 SAR and Sentinel-2 optical data time-series for mapping tropical dry-forests. Since seasonality is the main challenge to map tropical dry-forests, we learn the seasonality pattern in the data implicitly using transformers. The implementation uses Google Earth Engine (GEE) to prepare Sentinel-1 and Sentinel-2 time series data and Tensorflow for deep learning. 
+This repository prototypes the fusion of Sentinel-1 SAR and Sentinel-2 optical data time-series for mapping tropical dry-forests disturbance. Since seasonality is the main challenge to map tropical dry-forests, we learn the seasonality pattern in the data implicitly using transformers. The implementation uses Google Earth Engine (GEE) to prepare Sentinel-1 and Sentinel-2 time series data and Tensorflow for deep learning. 
 
 ## Architecture
 
