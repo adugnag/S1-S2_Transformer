@@ -17,7 +17,7 @@ To train a model, the user needs to provide an area of interest in GEE geometry 
 The script is provided in a jupyter notebook format. This should make it easier for users to run the code in Google colab without worrying about software dependencies.
 
 ![transformer_bolivia](https://user-images.githubusercontent.com/48068921/190647263-e11ea956-d831-4521-9988-4fc0796b958f.png)
-(Test area in Bolivia Lat:-18.37, Lon:-62.29)
+(Test area in Bolivia center lat:-18.37, lon:-62.29)
 
 ## Dependencies
 
