@@ -1053,7 +1053,7 @@ def get_dataset(TRAIN_FILE_PATH, TEST_FILE_PATH, VALIDATION_FILE_PATH, FEATURES_
     
 def model_builder(hp):
 
-  he_init = tf.keras.initializers.GlorotNormal()
+  
   hp_units = hp.Int('filters', min_value=32, max_value=1024, step=32)
   lstm_units = hp.Int('lstm units', min_value=32, max_value=128, step=32)
 
