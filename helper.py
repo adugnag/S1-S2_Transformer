@@ -1062,7 +1062,7 @@ def model_builder(hp):
   x1 = tf.keras.layers.TimeDistributed(tf.keras.layers.Dense(hp_units))(inputs1)
   x1 = tf.keras.layers.TimeDistributed(tf.keras.layers.BatchNormalization())(x1)
   x1 = tf.keras.layers.TimeDistributed(tf.keras.layers.Activation('relu'))(x1)
-  x1 = PositionalEmbedding(sequence_length=37, output_dim=hp_units)(x1)
+  x1 = PositionalEmbedding(sequence_length=25, output_dim=hp_units)(x1)
   x1 = TransformerBlock(embed_dim=hp_units, ff_dim=lstm_units, num_heads = 4)(x1) 
   x1 = tf.keras.layers.GlobalAveragePooling1D()(x1)
   x1 = tf.keras.layers.Dense(hp_units*8)(x1)
